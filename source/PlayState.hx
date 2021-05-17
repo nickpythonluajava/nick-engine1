@@ -1364,7 +1364,7 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		scoreTxt.text = "Score:" + songScore;
+		scoreTxt.text = "Score:" + songScore + " | Nick Engine 0.1.0";
 
 		if (FlxG.keys.justPressed.ENTER && startedCountdown && canPause)
 		{
